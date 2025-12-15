@@ -15,5 +15,7 @@ public class CiclaInteri {
     return currentElement;
   }
 
-  
+  public boolean hasAncoraElementi() {
+    return currentIndex < numsArray.length;
+  }
 }
